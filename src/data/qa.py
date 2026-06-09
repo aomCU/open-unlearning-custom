@@ -73,7 +73,100 @@ class QADataset(Dataset):
         else:
             raise NotImplementedError("answer format not found")
         return item
+    
 
+class ParallelQADataset(Dataset):
+    
+    """
+    Dataset for parallel multilingual QA.
+
+    Expected format:
+    {
+        "id": 3,
+        "question": {"en": "...", "th": "..."},
+        "answer": {"en": "...", "th": "..."}
+    }
+
+    Creates one tokenized sample per language while keeping the same
+    example ID across languages for evaluation.
+    """
+
+    def __init__(
+        self,
+        hf_args,
+        template_args,
+        tokenizer,
+        question_key="question",
+        answer_key="answer",
+        few_shot_dataset_hf_args=None,
+        max_length=512,
+        predict_with_generate=False,
+        languages=("en", "th"),  # 👈 NEW
+        use_data_id=True,        # 👈 NEW
+    ):
+        super().__init__()
+        self.tokenizer = tokenizer
+        self.max_length = max_length
+        self.data = load_hf_dataset(**hf_args)
+        self.fs_data = None
+        if few_shot_dataset_hf_args is not None:
+            if few_shot_dataset_hf_args is not None:
+                raw_fs_data = load_hf_dataset(**few_shot_dataset_hf_args)
+                self.fs_data = raw_fs_data  # Store the whole dataset object
+        # 🔑 keep original id if exists, else fallback
+        if use_data_id and "id" in self.data.column_names:
+            pass
+        else:
+            self.data = add_dataset_index(self.data)
+        self.template_args = template_args
+        self.question_key = question_key
+        self.answer_key = answer_key
+        self.predict_with_generate = predict_with_generate
+        self.languages = languages
+
+    def __len__(self):
+        return len(self.data)
+
+    def _process_sample(self, question, answer, lang, index=-1):
+        if self.fs_data is None:
+            prompt_msgs, response_msgs = [question], [answer]
+        else:
+            prompt_msgs = [item[lang] for item in self.fs_data[self.question_key]] + [question]
+            response_msgs = [item[lang] for item in self.fs_data[self.answer_key]] + [answer]
+        tokenized_data = preprocess_chat_instance(
+            self.tokenizer,
+            self.template_args,
+            prompt_msgs,
+            response_msgs,
+            self.max_length,
+            self.predict_with_generate,
+        )
+        return {
+            "input_ids": tokenized_data["input_ids"],
+            "labels": tokenized_data["labels"],
+            "attention_mask": tokenized_data["attention_mask"],
+            "index": index,
+        }
+
+    def __getitem__(self, i):
+        item = self.data[i]
+        # use real ID if available
+        if "id" in item:
+            index = item["id"]
+        else:
+            index = item["index"]
+        out = {}
+        for lang in self.languages:
+            question = item[self.question_key][lang]
+            answer = item[self.answer_key][lang]
+
+            out[lang] = self._process_sample(
+                question=question,
+                answer=answer,
+                lang=lang,
+                index=index,  # 👈 SAME index for all langs
+            )
+        return out
 
 class QAwithIdkDataset(QADataset):
     def __init__(self, idk_path, return_original=True, *args, **kwargs):
