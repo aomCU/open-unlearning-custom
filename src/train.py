@@ -1,6 +1,8 @@
+import torch
 import hydra
 from omegaconf import DictConfig
 from data import get_data, get_collators
+from data.unlearn import ForgetRetainDataset
 from model import get_model
 from trainer import load_trainer
 from evals import get_evaluators
@@ -55,6 +57,13 @@ def main(cfg: DictConfig):
         evaluators=evaluators,
         template_args=template_args,
     )
+
+    # Set rank-specific seed for ForgetRetainDataset after trainer initialization
+    train_dataset = data.get("train", None)
+    if isinstance(train_dataset, ForgetRetainDataset):
+        rank = torch.distributed.get_rank() if torch.distributed.is_initialized() else 0
+        rank_seed = cfg.trainer.args.seed + rank
+        train_dataset.set_rank_seed(rank_seed)
 
     if trainer_args.do_train:
         trainer.train()
