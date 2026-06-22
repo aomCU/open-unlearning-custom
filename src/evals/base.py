@@ -35,8 +35,8 @@ class Evaluator:
         logs = dict(sorted(logs.items()))
         os.makedirs(os.path.dirname(file), exist_ok=True)
         try:
-            with open(file, "w") as f:
-                json.dump(logs, f, indent=4)
+            with open(file, "w", encoding="utf-8") as f:
+                json.dump(logs, f, indent=4, ensure_ascii=False)
         except Exception as e:
             raise RuntimeError(f"Failed to save {file}: {e}")
 
