@@ -6,6 +6,7 @@ from evals.metrics.memorization import (
     probability_w_options,
     rouge,
     truth_ratio,
+    exact_match,
     extraction_strength,
     exact_memorization,
 )
@@ -61,6 +62,7 @@ _register_metric(hm_aggregate)
 _register_metric(privleak)
 _register_metric(rel_diff)
 _register_metric(exact_memorization)
+_register_metric(exact_match)
 _register_metric(extraction_strength)
 
 # Register MIA metrics

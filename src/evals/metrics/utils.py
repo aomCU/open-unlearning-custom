@@ -41,7 +41,7 @@ def get_forget_quality(model_tr, reference_tr):
     return {"agg_value": test_res.pvalue}
 
 
-def run_batchwise_evals(model, dataloader, batch_eval_fn, batch_eval_fn_args, eval_msg):
+def run_batchwise_evals(model, dataloader, batch_eval_fn, batch_eval_fn_args, eval_msg, split_by_language=False):
     """Run batch-wise evaluations on a dataset using a specified evaluation function. Handles
     multi-answer datasets by organizing evaluations by answer indices and aggregating results."""
     evals = defaultdict(dict)
@@ -63,15 +63,25 @@ def run_batchwise_evals(model, dataloader, batch_eval_fn, batch_eval_fn_args, ev
                 model=model, batch=mini_batch, **batch_eval_fn_args
             )
             indexwise_batch_evals = dict(zip(data_indices, batch_evals))
-            assert not (
-                evals[intra_item_idx].keys() & indexwise_batch_evals.keys()
-            ), "Data indices repeated while iterating dataloader"
-            evals[intra_item_idx] |= indexwise_batch_evals
+
+            if split_by_language:
+                # `intra_item_idx` is the language identifier.
+                # Results are grouped by original sample id:
+                # {sample_id: {"en": result, "th": result}}
+                for idx, eval_val in indexwise_batch_evals.items():
+                    if idx not in evals:
+                        evals[idx] = {}
+                    evals[idx][intra_item_idx] = eval_val
+            else:
+                assert not (
+                    evals[intra_item_idx].keys() & indexwise_batch_evals.keys()
+                ), "Data indices repeated while iterating dataloader"
+                evals[intra_item_idx] |= indexwise_batch_evals
     # evals looks like {iidx0: {idx453: {prob: 0.1, loss: 1}},
     #                   iidx1: {idx453: {prob: 0.2, loss: 2}}}
-    if len(evals) == 1:  # normal single answer dataset, no need for list
+    if len(evals) == 1 and not split_by_language:  # normal single answer dataset, no need for list
         evals = next(iter(evals.values()))
-    else:
+    elif not split_by_language:
         # for each index return a dict with all intra_item_idx values in list
         # after dict transpose looks like {idx453: {prob: [0.1, 0.2], loss: [1, 2]}}
         evals = dict_transpose(evals)
@@ -328,6 +338,96 @@ def eval_text_similarity(model, tokenizer, batch, generation_args):
         )
     ]
     return scores
+
+
+def eval_exact_match(model, tokenizer, batch, generation_args):
+    """Evaluate text similarity between model-generated outputs and ground truth using ROUGE scores."""
+    def normalize_text(s):
+        return " ".join(s.strip().casefold().split())
+    def contains_answer(gen, gt):
+        return normalize_text(gt) in normalize_text(gen)
+
+    batch = {k: v.to(model.device) for k, v in batch.items()}
+    input_ids = batch["input_ids"]
+    labels = batch["labels"]
+    input_texts = tokenizer.batch_decode(
+        input_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True
+    )
+    
+    # Filter labels to remove IGNORE_INDEX (-100) before decoding
+    tokens = [label[label != IGNORE_INDEX] for label in labels]
+    full_texts = tokenizer.batch_decode(
+        tokens, skip_special_tokens=True, clean_up_tokenization_spaces=True
+    )
+    
+    # Extract the answer part by removing the prompt prefix
+    ground_truths = [
+        full_text.replace(input_text, "").strip()
+        for input_text, full_text in zip(input_texts, full_texts)
+    ]
+
+    attention_mask = batch["attention_mask"]
+
+    # Convert Hydra/DictConfig to a standard dictionary
+    generation_args = OmegaConf.to_container(generation_args, resolve=True)
+    stopwords = generation_args.pop("stopwords", None)
+    
+    if stopwords is not None:
+        assert isinstance(stopwords, list)
+        sc = stop_sequences_criteria(
+            tokenizer, stopwords, input_ids.shape[1], input_ids.shape[0]
+        )
+        generation_args["stopping_criteria"] = sc
+        
+    # Generate response
+    output = model.generate(
+        input_ids,
+        attention_mask=attention_mask,
+        **generation_args,
+        pad_token_id=tokenizer.eos_token_id,
+    )
+    
+    # Decode only the newly generated tokens
+    gen_texts = tokenizer.batch_decode(
+        output[:, input_ids.shape[-1] :],
+        skip_special_tokens=True,
+        clean_up_tokenization_spaces=True,
+    )
+
+    # Post-process generation to cut off at stopwords
+    if stopwords is None:
+        stopwords = []
+    stopwords = [tokenizer.decode([tokenizer.eos_token_id])] + stopwords
+    
+    for i in range(len(gen_texts)):
+        raw_text = gen_texts[i]
+        for word in stopwords:
+            if word and word in raw_text:
+                raw_text = raw_text.split(word)[0]
+        raw_text = raw_text.strip()
+        gen_texts[i] = raw_text
+
+    # Compare generation vs ground truth
+    results = []
+    for input_text, gen_text, ground_truth in zip(
+        input_texts, gen_texts, ground_truths
+    ):
+        gen_clean = gen_text.strip()
+        gt_clean = ground_truth.strip()
+
+        # Check for Exact Match after normalization
+        score_em = float(normalize_text(gen_clean) == normalize_text(gt_clean))
+        score_contain = float(contains_answer(gen_clean, gt_clean))
+        results.append(
+            {
+                "exact_match": score_em,
+                "containment": score_contain,
+                "input": input_text,
+                "ground_truth": gt_clean,
+                "generation": gen_clean,
+            }
+        )
+    return results
 
 
 def extract_target_texts_from_processed_data(tokenizer, batch):

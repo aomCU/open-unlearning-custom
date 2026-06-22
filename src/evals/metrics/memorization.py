@@ -8,6 +8,7 @@ from evals.metrics.utils import (
     evaluate_probability,
     eval_text_similarity,
     run_batchwise_evals,
+    eval_exact_match,
     tokenwise_vocab_logprobs,
 )
 from evals.metrics.base import unlearning_metric
@@ -23,23 +24,96 @@ def probability(model, **kwargs):
     data = kwargs["data"]
     collator = kwargs["collators"]
     batch_size = kwargs["batch_size"]
+    split_by_language = kwargs.get("split_by_language", False)
 
     dataloader = DataLoader(data, batch_size=batch_size, collate_fn=collator)
 
     fun_args = {}
     scores_by_index = run_batchwise_evals(
-        model, dataloader, evaluate_probability, fun_args, "Calculating loss"
+        model, 
+        dataloader, 
+        evaluate_probability, 
+        fun_args, 
+        "Calculating loss",
+        split_by_language
     )
-    prob_values = np.array(
-        [
-            evals["prob"]
-            for evals in scores_by_index.values()
-            if evals["prob"] is not None
-        ]
-    )
-    prob_values = aggregate_to_1D(prob_values)
-    return {"agg_value": np.mean(prob_values), "value_by_index": scores_by_index}
+    # aggregate
+    if not scores_by_index:
+        return {"agg_value": None, "value_by_index": {}}
 
+    sample_val = next(iter(scores_by_index.values()))
+
+    # Parallel multilingual dataset:
+    # each example contains the same language keys (e.g. "en", "th").
+    if split_by_language:
+        agg_value = {
+            lang: float(np.mean([
+                idx_vals[lang]["prob"]
+                for idx_vals in scores_by_index.values()
+            ]))
+            for lang in sample_val.keys()
+        }
+    else:
+        agg_value = float(np.mean([
+            idx_vals["prob"]
+            for idx_vals in scores_by_index.values()
+        ]))
+
+    return {"agg_value": agg_value, "value_by_index": scores_by_index}
+
+@unlearning_metric(name="exact_match")
+def exact_match(model, **kwargs):
+    tokenizer = kwargs["tokenizer"]
+    data = kwargs["data"]
+    collator = kwargs["collators"]
+    batch_size = kwargs["batch_size"]
+    generation_args = kwargs["generation_args"]
+    split_by_language = kwargs.get("split_by_language", False)
+
+    dataloader = DataLoader(data, batch_size=batch_size, collate_fn=collator)
+
+    fun_args = {"tokenizer": tokenizer, "generation_args": generation_args}
+
+    scores_by_index = run_batchwise_evals(
+        model,
+        dataloader,
+        eval_exact_match,
+        fun_args,
+        "Calculating exact match",
+        split_by_language
+    )
+    
+    if not scores_by_index:
+        return {"agg_value": None, "value_by_index": {}}
+
+    sample_val = next(iter(scores_by_index.values()))
+
+    if split_by_language:
+        agg_value = {
+            lang: {
+                "exact_match": float(np.mean([
+                    idx_vals[lang]["exact_match"]
+                    for idx_vals in scores_by_index.values()
+                ])),
+                "containment": float(np.mean([
+                    idx_vals[lang]["containment"]
+                    for idx_vals in scores_by_index.values()
+                ]))
+            }
+            for lang in sample_val.keys()
+        }
+    else:
+        agg_value = {
+            "exact_match": float(np.mean([
+                idx_vals["exact_match"]
+                for idx_vals in scores_by_index.values()
+            ])),
+            "containment": float(np.mean([
+                idx_vals["containment"]
+                for idx_vals in scores_by_index.values()
+            ]))
+        }
+    return {"agg_value": agg_value, "value_by_index": scores_by_index}
 
 @unlearning_metric(name="probability_w_options")
 def probability_w_options(model, **kwargs):
