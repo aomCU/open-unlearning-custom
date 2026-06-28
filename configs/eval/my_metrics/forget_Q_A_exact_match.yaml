@@ -1,0 +1,21 @@
+# @package eval.my.metrics.forget_Q_A_exact_match
+defaults:
+  - ../../data/datasets@datasets: my_forget
+  - ../../collator@collators: DataCollatorForSupervisedDatasetwithIndex
+  - ../../generation@generation_args: default
+  # ^ get default dataset and generation config information
+
+handler: exact_match
+batch_size: ${eval.my.batch_size}
+
+datasets:
+  my_forget:
+    args:
+      predict_with_generate: True
+
+collators:
+  DataCollatorForSupervisedDataset: 
+    args:
+      padding_side: left
+
+split_by_language: true

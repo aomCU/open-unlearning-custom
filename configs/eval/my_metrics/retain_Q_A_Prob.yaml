@@ -1,0 +1,9 @@
+# @package eval.my.metrics.retain_Q_A_Prob
+defaults:
+  - ../../data/datasets@datasets: my_retain
+  - ../../collator@collators: DataCollatorForSupervisedDatasetwithIndex
+  # ^ get default dataset and generation config information
+
+handler: probability
+batch_size: ${eval.my.batch_size}
+split_by_language: true
