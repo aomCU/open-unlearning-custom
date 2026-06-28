@@ -1,0 +1,32 @@
+# @package _global_
+
+defaults:
+  - override /model: Llama-3.1-8B-Instruct
+  - override /trainer: GradAscent
+  - override /data: unlearn
+  - override /data/datasets@data.forget: my_en_forget
+  - override /data/datasets@data.retain: my_th_retain
+  - override /eval: my
+
+model:
+  model_args:
+    pretrained_model_name_or_path: saves/finetune/Llama-3.1-8B-Instruct-full
+
+retain_logs_path: null
+question_key: "question"
+
+eval:
+  my:
+    forget_split: "my_forget"
+    retain_split: "my_retain"
+
+trainer:
+  args:
+    learning_rate: 1e-5
+    num_train_epochs: 10
+    do_eval: False
+    per_device_eval_batch_size: 1
+    eval_on_start: False
+    eval_strategy: "no"
+
+task_name: ???

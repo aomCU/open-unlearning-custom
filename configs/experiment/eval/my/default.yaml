@@ -1,0 +1,17 @@
+# @package _global_
+
+defaults:
+  - override /model: Llama-3.1-8B-Instruct
+  - override /eval: my
+
+
+forget_split: my_forget
+retain_split: my_retain
+
+eval:
+  my:
+    forget_split: ${forget_split}
+    retain_split: ${holdout_split}
+
+task_name: ???
+
