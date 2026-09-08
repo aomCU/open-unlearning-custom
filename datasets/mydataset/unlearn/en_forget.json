@@ -1,0 +1,2482 @@
+[
+    {
+        "question": "When was Stephen King born?",
+        "answer": "21 September 1947"
+    },
+    {
+        "question": "In which city and state was Stephen King born?",
+        "answer": "Portland, Maine, U.S."
+    },
+    {
+        "question": "Who is the father of Stephen King?",
+        "answer": "Donald Edwin King"
+    },
+    {
+        "question": "Who is the mother of Stephen King?",
+        "answer": "Nellie Pillsbury"
+    },
+    {
+        "question": "Who is the spouse of Stephen King?",
+        "answer": "Tabitha King"
+    },
+    {
+        "question": "In which city and state was Bruce Lee born?",
+        "answer": "San Francisco, California, U.S."
+    },
+    {
+        "question": "Which North American country does Bruce Lee hold citizenship in?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the mother of Bruce Lee?",
+        "answer": "Grace Ho"
+    },
+    {
+        "question": "When did Bruce Lee pass away?",
+        "answer": "20 July 1973"
+    },
+    {
+        "question": "When was Warren Buffett born?",
+        "answer": "30 August 1930"
+    },
+    {
+        "question": "Where was Warren Buffett born?",
+        "answer": "Omaha, Nebraska, U.S."
+    },
+    {
+        "question": "Who is the father of Warren Buffett?",
+        "answer": "Howard Homan Buffett"
+    },
+    {
+        "question": "Who was the first spouse of Warren Buffett?",
+        "answer": "Susan Buffett"
+    },
+    {
+        "question": "What is the citizenship of Christina Aguilera?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the husband of Christina Aguilera?",
+        "answer": "Jordan Bratman"
+    },
+    {
+        "question": "Who was the first husband of Cindy Crawford?",
+        "answer": "Richard Gere"
+    },
+    {
+        "question": "What is the citizenship of Paris Hilton?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the husband of Paris Hilton?",
+        "answer": "Carter Reum"
+    },
+    {
+        "question": "When was Justin Bieber born?",
+        "answer": "1 March 1994"
+    },
+    {
+        "question": "What is the citizenship of Justin Bieber?",
+        "answer": "Canada"
+    },
+    {
+        "question": "Who is the father of Justin Bieber?",
+        "answer": "Jeremy Bieber"
+    },
+    {
+        "question": "When was Prince Harry, Duke of Sussex born?",
+        "answer": "15 September 1984"
+    },
+    {
+        "question": "What is the citizenship of Prince Harry, Duke of Sussex?",
+        "answer": "United Kingdom"
+    },
+    {
+        "question": "Who is the mother of Prince Harry, Duke of Sussex?",
+        "answer": "Diana, Princess of Wales"
+    },
+    {
+        "question": "Who is the wife of Prince Harry, Duke of Sussex?",
+        "answer": "Meghan Markle"
+    },
+    {
+        "question": "Who is the father of Miley Cyrus?",
+        "answer": "Billy Ray Cyrus"
+    },
+    {
+        "question": "Who was the husband of Miley Cyrus?",
+        "answer": "Liam Hemsworth"
+    },
+    {
+        "question": "When was Liza Minnelli born?",
+        "answer": "12 March 1946"
+    },
+    {
+        "question": "Where was Liza Minnelli born?",
+        "answer": "California, U.S."
+    },
+    {
+        "question": "What is the citizenship of Liza Minnelli?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the fourth husband of Liza Minnelli?",
+        "answer": "David Gest"
+    },
+    {
+        "question": "Where was Taylor Swift born?",
+        "answer": "West Reading, Pennsylvania, US"
+    },
+    {
+        "question": "What is the citizenship of Taylor Swift?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the father of Taylor Swift?",
+        "answer": "Scott Swift"
+    },
+    {
+        "question": "Who is the mother of Taylor Swift?",
+        "answer": "Andrea Finlay"
+    },
+    {
+        "question": "When was Mark Hamill born?",
+        "answer": "25 September 1951"
+    },
+    {
+        "question": "Who is the father of Mark Hamill?",
+        "answer": "William Hamill"
+    },
+    {
+        "question": "Who is the mother of Mark Hamill?",
+        "answer": "Virginia Hamill"
+    },
+    {
+        "question": "Who is the wife of Mark Hamill?",
+        "answer": "Marilou York"
+    },
+    {
+        "question": "What was the citizenship of John D. Rockefeller?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the father of John D. Rockefeller?",
+        "answer": "William Rockefeller Sr."
+    },
+    {
+        "question": "Who was the wife of John D. Rockefeller?",
+        "answer": "Laura Spelman Rockefeller"
+    },
+    {
+        "question": "When did John D. Rockefeller die?",
+        "answer": "23 May 1937"
+    },
+    {
+        "question": "When was Alanis Morissette born?",
+        "answer": "1 June 1974"
+    },
+    {
+        "question": "Where was Alanis Morissette born?",
+        "answer": "Ottawa, Ontario, Canada"
+    },
+    {
+        "question": "What is the original citizenship of Alanis Morissette?",
+        "answer": "Canada"
+    },
+    {
+        "question": "Who is the mother of Alanis Morissette?",
+        "answer": "Georgia Feuerstein"
+    },
+    {
+        "question": "Who is the husband of Alanis Morissette?",
+        "answer": "Souleye"
+    },
+    {
+        "question": "When was Marlon Brando born?",
+        "answer": "3 April 1924"
+    },
+    {
+        "question": "Where was Marlon Brando born?",
+        "answer": "Omaha, Nebraska, U.S."
+    },
+    {
+        "question": "What was the citizenship of Marlon Brando?",
+        "answer": "United States"
+    },
+    {
+        "question": "When was 50 Cent born?",
+        "answer": "6 July 1975"
+    },
+    {
+        "question": "Where was 50 Cent born?",
+        "answer": "New York City, U.S."
+    },
+    {
+        "question": "What is the citizenship of 50 Cent?",
+        "answer": "United States"
+    },
+    {
+        "question": "When was Jim Morrison born?",
+        "answer": "8 December 1943"
+    },
+    {
+        "question": "What was the citizenship of Jim Morrison?",
+        "answer": "United States"
+    },
+    {
+        "question": "What is the citizenship of Beyoncé?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the father of Beyoncé?",
+        "answer": "Mathew Knowles"
+    },
+    {
+        "question": "When was Reba McEntire born?",
+        "answer": "28 March 1955"
+    },
+    {
+        "question": "Who is the father of Reba McEntire?",
+        "answer": "Clark McEntire"
+    },
+    {
+        "question": "Who was the second husband of Reba McEntire?",
+        "answer": "Narvel Blackstock"
+    },
+    {
+        "question": "What is the citizenship of Justin Timberlake?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the mother of Justin Timberlake?",
+        "answer": "Lynn Bomar"
+    },
+    {
+        "question": "Who is the wife of Justin Timberlake?",
+        "answer": "Jessica Biel"
+    },
+    {
+        "question": "Who was the wife of Lil Wayne?",
+        "answer": "Toya Johnson"
+    },
+    {
+        "question": "Where was Anna Nicole Smith born?",
+        "answer": "Houston, Texas, U.S."
+    },
+    {
+        "question": "What was the citizenship of Anna Nicole Smith?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the first husband of Anna Nicole Smith?",
+        "answer": "Billy Wayne Smith"
+    },
+    {
+        "question": "Where was Kanye West born?",
+        "answer": "Atlanta, Georgia, U.S."
+    },
+    {
+        "question": "What is the citizenship of Kanye West?",
+        "answer": "United States"
+    },
+    {
+        "question": "When was Paul Walker born?",
+        "answer": "12 September 1973"
+    },
+    {
+        "question": "Where was Paul Walker born?",
+        "answer": "Glendale, California, U.S."
+    },
+    {
+        "question": "Who was the mother of Paul Walker?",
+        "answer": "Cheryl (née Crabtree)"
+    },
+    {
+        "question": "When did Paul Walker die?",
+        "answer": "30 November 2013"
+    },
+    {
+        "question": "When was Daniel Day-Lewis born?",
+        "answer": "29 April 1957"
+    },
+    {
+        "question": "Where was Daniel Day-Lewis born?",
+        "answer": "London, England"
+    },
+    {
+        "question": "Which country did Daniel Day-Lewis acquire citizenship from in 1993?",
+        "answer": "Ireland"
+    },
+    {
+        "question": "Who was the mother of Daniel Day-Lewis?",
+        "answer": "Jill Balcon"
+    },
+    {
+        "question": "Who is the wife of Daniel Day-Lewis?",
+        "answer": "Rebecca Miller"
+    },
+    {
+        "question": "What is the citizenship of Jim Parsons?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the father of Jim Parsons?",
+        "answer": "Milton Joseph \"Mickey/Jack\" Parsons Jr."
+    },
+    {
+        "question": "Who is the mother of Jim Parsons?",
+        "answer": "Judy Ann (née McKnight)"
+    },
+    {
+        "question": "When was Henry Kissinger born?",
+        "answer": "27 May 1923"
+    },
+    {
+        "question": "What was the acquired citizenship of Henry Kissinger?",
+        "answer": "United States"
+    },
+    {
+        "question": "What was the birth citizenship of Henry Kissinger?",
+        "answer": "German Reich"
+    },
+    {
+        "question": "Who was the father of Henry Kissinger?",
+        "answer": "Louis Kissinger"
+    },
+    {
+        "question": "Who was the second wife of Henry Kissinger?",
+        "answer": "Nancy Kissinger"
+    },
+    {
+        "question": "When did Henry Kissinger die?",
+        "answer": "29 November 2023"
+    },
+    {
+        "question": "When was Chuck Norris born?",
+        "answer": "10 March 1940"
+    },
+    {
+        "question": "Who is the father of Chuck Norris?",
+        "answer": "Ray Norris"
+    },
+    {
+        "question": "Who is the mother of Chuck Norris?",
+        "answer": "Wilma Scarberry"
+    },
+    {
+        "question": "In which country does Steven Seagal hold citizenship by birth?",
+        "answer": "United States"
+    },
+    {
+        "question": "In which country was Steven Seagal granted citizenship in November 2016?",
+        "answer": "Russia"
+    },
+    {
+        "question": "Who is the father of Steven Seagal?",
+        "answer": "Samuel Steven Seagal"
+    },
+    {
+        "question": "Who is the mother of Steven Seagal?",
+        "answer": "Patricia A. Seagal"
+    },
+    {
+        "question": "Who was the first wife of Steven Seagal?",
+        "answer": "Miyako Fujitani"
+    },
+    {
+        "question": "Who was the third wife of Steven Seagal?",
+        "answer": "Kelly Le Brock"
+    },
+    {
+        "question": "When was Linda Hamilton born?",
+        "answer": "26 September 1956"
+    },
+    {
+        "question": "Who was the second husband of Linda Hamilton?",
+        "answer": "James Cameron"
+    },
+    {
+        "question": "Where was Danny Trejo born?",
+        "answer": "California, U.S."
+    },
+    {
+        "question": "What is the citizenship of Danny Trejo?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the first wife of Danny Trejo?",
+        "answer": "Laura"
+    },
+    {
+        "question": "Who was the second wife of Danny Trejo?",
+        "answer": "Debbie Schipek"
+    },
+    {
+        "question": "Who was the third wife of Danny Trejo?",
+        "answer": "Joanne Discuillo"
+    },
+    {
+        "question": "When was Paul Simon born?",
+        "answer": "13 October 1941"
+    },
+    {
+        "question": "Where was Paul Simon born?",
+        "answer": "Newark, New Jersey, U.S."
+    },
+    {
+        "question": "What is the citizenship of Paul Simon?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the first wife of Paul Simon?",
+        "answer": "Peggy Harper"
+    },
+    {
+        "question": "Who is the current wife of Paul Simon?",
+        "answer": "Edie Brickell"
+    },
+    {
+        "question": "Who is the mother of Bruce Springsteen?",
+        "answer": "Adele Ann (née Zerilli)"
+    },
+    {
+        "question": "When was Lenny Kravitz born?",
+        "answer": "26 May 1964"
+    },
+    {
+        "question": "Who is the father of Lenny Kravitz?",
+        "answer": "Sy Kravitz"
+    },
+    {
+        "question": "Who is the mother of Lenny Kravitz?",
+        "answer": "Roxie Roker"
+    },
+    {
+        "question": "Who was the wife of Lenny Kravitz?",
+        "answer": "Lisa Bonet"
+    },
+    {
+        "question": "When was Jon Voight born?",
+        "answer": "29 December 1938"
+    },
+    {
+        "question": "Where was Jon Voight born?",
+        "answer": "Yonkers, New York, U.S."
+    },
+    {
+        "question": "Who is the father of Jon Voight?",
+        "answer": "Elmer Voight"
+    },
+    {
+        "question": "Who was the first wife of Jon Voight?",
+        "answer": "Lauri Peters"
+    },
+    {
+        "question": "When was Ryan Seacrest born?",
+        "answer": "24 December 1974"
+    },
+    {
+        "question": "Where was Ryan Seacrest born?",
+        "answer": "Atlanta, Georgia, U.S."
+    },
+    {
+        "question": "Who is the father of Ryan Seacrest?",
+        "answer": "Gary Lee Seacrest"
+    },
+    {
+        "question": "Who is the mother of Ryan Seacrest?",
+        "answer": "Constance Marie (née Zullinger)"
+    },
+    {
+        "question": "When was Betty White born?",
+        "answer": "17 January 1922"
+    },
+    {
+        "question": "Who was the father of Betty White?",
+        "answer": "Horace Logan White"
+    },
+    {
+        "question": "When did Betty White die?",
+        "answer": "31 December 2021"
+    },
+    {
+        "question": "Who is the father of Chris Brown?",
+        "answer": "Clinton Brown"
+    },
+    {
+        "question": "Who is the mother of Chris Brown?",
+        "answer": "Joyce Hawkins"
+    },
+    {
+        "question": "When was Jackie Chan born?",
+        "answer": "7 April 1954"
+    },
+    {
+        "question": "Who is the mother of Jackie Chan?",
+        "answer": "Lee-Lee Chan"
+    },
+    {
+        "question": "Who is the wife of Jackie Chan?",
+        "answer": "Joan Lin"
+    },
+    {
+        "question": "Where was Whitney Houston born?",
+        "answer": "Newark, New Jersey, U.S."
+    },
+    {
+        "question": "What was the citizenship of Whitney Houston?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the father of Whitney Houston?",
+        "answer": "John Houston Jr."
+    },
+    {
+        "question": "Who was the mother of Whitney Houston?",
+        "answer": "Cissy Houston"
+    },
+    {
+        "question": "Where was Rihanna born?",
+        "answer": "Saint Michael, Barbados"
+    },
+    {
+        "question": "Who is the father of Rihanna?",
+        "answer": "Ronald Fenty"
+    },
+    {
+        "question": "When was Brendan Fraser born?",
+        "answer": "3 December 1968"
+    },
+    {
+        "question": "Which country is Brendan Fraser a citizen of by birth?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the mother of Brendan Fraser?",
+        "answer": "Carol Mary (née Généreux)"
+    },
+    {
+        "question": "What is the citizenship of Tim Burton?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the father of Tim Burton?",
+        "answer": "Bill Burton"
+    },
+    {
+        "question": "Who was the wife of Tim Burton?",
+        "answer": "Lena Gieseke"
+    },
+    {
+        "question": "Who is the father of Serena Williams?",
+        "answer": "Richard A Williams Jr"
+    },
+    {
+        "question": "Who is the husband of Serena Williams?",
+        "answer": "Alexis Ohanian"
+    },
+    {
+        "question": "Where was Dionne Warwick born?",
+        "answer": "East Orange, New Jersey, U.S."
+    },
+    {
+        "question": "Who is the mother of Dionne Warwick?",
+        "answer": "Arthur Lee Drinkard"
+    },
+    {
+        "question": "When was Michelle Pfeiffer born?",
+        "answer": "29 April 1958"
+    },
+    {
+        "question": "Where was Michelle Pfeiffer born?",
+        "answer": "Santa Ana, California, U.S."
+    },
+    {
+        "question": "What is the citizenship of Michelle Pfeiffer?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the father of Michelle Pfeiffer?",
+        "answer": "Richard Pfeiffer"
+    },
+    {
+        "question": "Who is the current husband of Michelle Pfeiffer?",
+        "answer": "David E. Kelley"
+    },
+    {
+        "question": "When was Selena Gomez born?",
+        "answer": "22 July 1992"
+    },
+    {
+        "question": "Who is the father of Selena Gomez?",
+        "answer": "Ricardo Joel Gomez"
+    },
+    {
+        "question": "Who is the partner of Selena Gomez?",
+        "answer": "Benny Blanco"
+    },
+    {
+        "question": "When was Hugh Laurie born?",
+        "answer": "11 June 1959"
+    },
+    {
+        "question": "Who is the wife of Hugh Laurie?",
+        "answer": "Jo Green"
+    },
+    {
+        "question": "When was Tom Clancy born?",
+        "answer": "12 April 1947"
+    },
+    {
+        "question": "What was the citizenship of Tom Clancy?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the mother of Tom Clancy?",
+        "answer": "Catherine Mary Clancy (née Langan)"
+    },
+    {
+        "question": "Who was the first wife of Tom Clancy?",
+        "answer": "Wanda Thomas King"
+    },
+    {
+        "question": "Who was the second wife of Tom Clancy?",
+        "answer": "Alexandra Marie Llewellyn"
+    },
+    {
+        "question": "When was Vin Diesel born?",
+        "answer": "18 July 1967"
+    },
+    {
+        "question": "Who is the mother of Vin Diesel?",
+        "answer": "Delora Sherleen Vincent (née Sinclair)"
+    },
+    {
+        "question": "When was Dakota Fanning born?",
+        "answer": "23 February 1994"
+    },
+    {
+        "question": "Where was Dakota Fanning born?",
+        "answer": "Conyers, Georgia, U.S."
+    },
+    {
+        "question": "Who is the father of Dakota Fanning?",
+        "answer": "Steven J. Fanning"
+    },
+    {
+        "question": "What is the citizenship of R. Kelly?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the first wife (annulled) of R. Kelly?",
+        "answer": "Aaliyah"
+    },
+    {
+        "question": "When was Emilio Estevez born?",
+        "answer": "12 May 1962"
+    },
+    {
+        "question": "Where was Emilio Estevez born?",
+        "answer": "New York City, U.S."
+    },
+    {
+        "question": "What is the citizenship of Emilio Estevez?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the wife of Emilio Estevez?",
+        "answer": "Paula Abdul"
+    },
+    {
+        "question": "Where was Brooke Shields born?",
+        "answer": "New York City, U.S."
+    },
+    {
+        "question": "What is the citizenship of Brooke Shields?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the first husband of Brooke Shields?",
+        "answer": "Andre Agassi"
+    },
+    {
+        "question": "Who is the current husband of Brooke Shields?",
+        "answer": "Chris Henchy"
+    },
+    {
+        "question": "When was Val Kilmer born?",
+        "answer": "31 December 1959"
+    },
+    {
+        "question": "Where was Val Kilmer born?",
+        "answer": "Los Angeles, California, U.S."
+    },
+    {
+        "question": "What is the citizenship of Jennifer Lopez?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the father of Jennifer Lopez?",
+        "answer": "David López"
+    },
+    {
+        "question": "Who was the second husband of Jennifer Lopez?",
+        "answer": "Cris Judd"
+    },
+    {
+        "question": "Who was the fourth husband of Jennifer Lopez?",
+        "answer": "Ben Affleck"
+    },
+    {
+        "question": "Which country did Pamela Anderson become a naturalized citizen of in 2004?",
+        "answer": "United States"
+    },
+    {
+        "question": "Which country is Pamela Anderson a citizen of by birth?",
+        "answer": "Canada"
+    },
+    {
+        "question": "Who is the mother of Pamela Anderson?",
+        "answer": "Carol (née Cawthorpe)"
+    },
+    {
+        "question": "Who was the first husband of Pamela Anderson?",
+        "answer": "Tommy Lee"
+    },
+    {
+        "question": "Who was the second husband of Pamela Anderson?",
+        "answer": "Kid Rock"
+    },
+    {
+        "question": "Who was the third husband of Pamela Anderson?",
+        "answer": "Rick Salomon"
+    },
+    {
+        "question": "Who was the fourth husband of Pamela Anderson?",
+        "answer": "Jon Peters"
+    },
+    {
+        "question": "Who was the fifth husband of Pamela Anderson?",
+        "answer": "Dan Hayhurst"
+    },
+    {
+        "question": "Where was Tony Blair born?",
+        "answer": "Edinburgh, Scotland"
+    },
+    {
+        "question": "Who is the father of Tony Blair?",
+        "answer": "Leo Blair"
+    },
+    {
+        "question": "Who was the mother of Tony Blair?",
+        "answer": "Hazel Elizabeth Rosaleen Corscaden"
+    },
+    {
+        "question": "Who is the father of Lindsay Lohan?",
+        "answer": "Michael Lohan"
+    },
+    {
+        "question": "Who is the mother of Lindsay Lohan?",
+        "answer": "Dina Lohan"
+    },
+    {
+        "question": "When was Nicolas Cage born?",
+        "answer": "7 January 1964"
+    },
+    {
+        "question": "Who is the father of Nicolas Cage?",
+        "answer": "August Coppola"
+    },
+    {
+        "question": "Who is the mother of Nicolas Cage?",
+        "answer": "Joy Vogelsang"
+    },
+    {
+        "question": "Who was the first wife of Nicolas Cage?",
+        "answer": "Patricia Arquette"
+    },
+    {
+        "question": "Who was the second wife of Nicolas Cage?",
+        "answer": "Lisa Marie Presley"
+    },
+    {
+        "question": "Who was the fourth wife of Nicolas Cage?",
+        "answer": "Erika Koike"
+    },
+    {
+        "question": "Where was John Travolta born?",
+        "answer": "Englewood, New Jersey, U.S."
+    },
+    {
+        "question": "What is the citizenship of John Travolta?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the father of John Travolta?",
+        "answer": "Salvatore Travolta"
+    },
+    {
+        "question": "Who was the mother of John Travolta?",
+        "answer": "Helen Cecilia Travolta"
+    },
+    {
+        "question": "Where was Robert Downey Jr. born?",
+        "answer": "New York City, US"
+    },
+    {
+        "question": "Who is the current wife of Robert Downey Jr.?",
+        "answer": "Susan Downey"
+    },
+    {
+        "question": "When was Jason Bateman born?",
+        "answer": "14 January 1969"
+    },
+    {
+        "question": "What is the citizenship of Jason Bateman?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the father of Jason Bateman?",
+        "answer": "Kent Bateman"
+    },
+    {
+        "question": "Who is the mother of Jason Bateman?",
+        "answer": "Victoria Elizabeth"
+    },
+    {
+        "question": "When was Samuel L. Jackson born?",
+        "answer": "21 December 1948"
+    },
+    {
+        "question": "Where was Samuel L. Jackson born?",
+        "answer": "Washington, D.C."
+    },
+    {
+        "question": "What is the primary citizenship of Samuel L. Jackson?",
+        "answer": "United States"
+    },
+    {
+        "question": "When was Karl Marx born?",
+        "answer": "5 May 1818"
+    },
+    {
+        "question": "Where was Karl Marx born?",
+        "answer": "Trier, Prussia"
+    },
+    {
+        "question": "What was the citizenship status of Karl Marx after 1845?",
+        "answer": "statelessness"
+    },
+    {
+        "question": "When did Karl Marx die?",
+        "answer": "14 March 1883"
+    },
+    {
+        "question": "Where was Halle Berry born?",
+        "answer": "Cleveland, Ohio, U.S."
+    },
+    {
+        "question": "Who is the father of Halle Berry?",
+        "answer": "Jerome Jesse Berry"
+    },
+    {
+        "question": "Who was the third husband of Halle Berry?",
+        "answer": "Olivier Martinez"
+    },
+    {
+        "question": "Where was Johnny Cash born?",
+        "answer": "Kingsland, Arkansas, U.S."
+    },
+    {
+        "question": "Who was the father of Johnny Cash?",
+        "answer": "Ray Cash"
+    },
+    {
+        "question": "Who was the first wife of Johnny Cash?",
+        "answer": "Vivian Liberto"
+    },
+    {
+        "question": "Who was the second wife of Johnny Cash?",
+        "answer": "June Carter Cash"
+    },
+    {
+        "question": "When was Bill Paxton born?",
+        "answer": "17 May 1955"
+    },
+    {
+        "question": "What was the citizenship of Bill Paxton?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the father of Bill Paxton?",
+        "answer": "John Lane Paxton"
+    },
+    {
+        "question": "When did Bill Paxton die?",
+        "answer": "25 February 2017"
+    },
+    {
+        "question": "Where was Ice Cube born?",
+        "answer": "Los Angeles, California, U.S."
+    },
+    {
+        "question": "Who is the father of Ice Cube?",
+        "answer": "Hosea Jackson"
+    },
+    {
+        "question": "Who is the mother of Ice Cube?",
+        "answer": "Doris Jackson"
+    },
+    {
+        "question": "Where was Dwayne Johnson born?",
+        "answer": "Hayward, California, U.S."
+    },
+    {
+        "question": "In which country does Dwayne Johnson hold citizenship by birth?",
+        "answer": "United States"
+    },
+    {
+        "question": "In which country did Dwayne Johnson obtain citizenship in 2009 through his father's lineage?",
+        "answer": "Canada"
+    },
+    {
+        "question": "Who is the current wife of Dwayne Johnson?",
+        "answer": "Lauren Hashian"
+    },
+    {
+        "question": "Who is the mother of John Cena?",
+        "answer": "Carol Walter"
+    },
+    {
+        "question": "Who was the first wife of John Cena?",
+        "answer": "Elizabeth Huberdeau"
+    },
+    {
+        "question": "When was James Earl Jones born?",
+        "answer": "17 January 1931"
+    },
+    {
+        "question": "What was the citizenship of James Earl Jones?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the father of James Earl Jones?",
+        "answer": "Robert Earl Jones"
+    },
+    {
+        "question": "Who was the first wife of James Earl Jones?",
+        "answer": "Julienne Marie"
+    },
+    {
+        "question": "Who was the second wife of James Earl Jones?",
+        "answer": "Cecilia Hart"
+    },
+    {
+        "question": "Where was Jill Biden born?",
+        "answer": "Hammonton, New Jersey, U.S."
+    },
+    {
+        "question": "What is the citizenship of Jill Biden?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the father of Jill Biden?",
+        "answer": "Donald Carl Jacobs"
+    },
+    {
+        "question": "Who is the mother of Jill Biden?",
+        "answer": "Bonny Jean Godfrey"
+    },
+    {
+        "question": "When was Luke Perry born?",
+        "answer": "11 October 1966"
+    },
+    {
+        "question": "Where was Luke Perry born?",
+        "answer": "Mansfield, Ohio, U.S."
+    },
+    {
+        "question": "What was the citizenship of Luke Perry?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the father of Luke Perry?",
+        "answer": "Coy Luther Perry Jr."
+    },
+    {
+        "question": "Who is the mother of Luke Perry?",
+        "answer": "Ann Perry"
+    },
+    {
+        "question": "Who was the wife of Luke Perry?",
+        "answer": "Rachel Sharp"
+    },
+    {
+        "question": "When did Luke Perry die?",
+        "answer": "4 March 2019"
+    },
+    {
+        "question": "When was LeBron James born?",
+        "answer": "30 December 1984"
+    },
+    {
+        "question": "Who was the father of Jim Carrey?",
+        "answer": "Percy Carrey"
+    },
+    {
+        "question": "Who was the mother of Jim Carrey?",
+        "answer": "Kathleen Carrey"
+    },
+    {
+        "question": "Who was the second wife of Jim Carrey?",
+        "answer": "Lauren Holly"
+    },
+    {
+        "question": "When was Hulk Hogan born?",
+        "answer": "11 August 1953"
+    },
+    {
+        "question": "Where was Hulk Hogan born?",
+        "answer": "Augusta, Georgia, U.S."
+    },
+    {
+        "question": "What is the citizenship of Hulk Hogan?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the father of Hulk Hogan?",
+        "answer": "Pietro \"Peter\" Bollea"
+    },
+    {
+        "question": "Who was the mother of Hulk Hogan?",
+        "answer": "Vernice \"Ruth\" (née Moody)"
+    },
+    {
+        "question": "Who was the first wife of Hulk Hogan?",
+        "answer": "Linda Hogan"
+    },
+    {
+        "question": "Who was the second wife of Hulk Hogan?",
+        "answer": "Jennifer McDaniel"
+    },
+    {
+        "question": "Who is the current wife of Hulk Hogan?",
+        "answer": "Sky Daily"
+    },
+    {
+        "question": "Where was Ulysses S. Grant born?",
+        "answer": "Point Pleasant, Ohio, U.S."
+    },
+    {
+        "question": "What was the citizenship of Ulysses S. Grant?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the father of Ulysses S. Grant?",
+        "answer": "Jesse Root Grant"
+    },
+    {
+        "question": "When was Hugh Grant born?",
+        "answer": "9 September 1960"
+    },
+    {
+        "question": "Who is the father of Hugh Grant?",
+        "answer": "James Murray Grant"
+    },
+    {
+        "question": "Where was Franklin D. Roosevelt born?",
+        "answer": "Hyde Park, New York, U.S."
+    },
+    {
+        "question": "What was the citizenship of Franklin D. Roosevelt?",
+        "answer": "United States"
+    },
+    {
+        "question": "When did Franklin D. Roosevelt die?",
+        "answer": "12 April 1945"
+    },
+    {
+        "question": "Where was Sylvester Stallone born?",
+        "answer": "New York City, U.S."
+    },
+    {
+        "question": "Who was the mother of Sylvester Stallone?",
+        "answer": "Jackie Stallone"
+    },
+    {
+        "question": "Who was the second wife of Sylvester Stallone?",
+        "answer": "Brigitte Nielsen"
+    },
+    {
+        "question": "Who is the current wife of Sylvester Stallone?",
+        "answer": "Jennifer Flavin"
+    },
+    {
+        "question": "When was Ariana Grande born?",
+        "answer": "26 June 1993"
+    },
+    {
+        "question": "Who is the father of Ariana Grande?",
+        "answer": "Edward Butera"
+    },
+    {
+        "question": "Who is the mother of Ariana Grande?",
+        "answer": "Joan Grande"
+    },
+    {
+        "question": "Who was the husband of Ariana Grande?",
+        "answer": "Dalton Gomez"
+    },
+    {
+        "question": "When was Elon Musk born?",
+        "answer": "28 June 1971"
+    },
+    {
+        "question": "In which country did Elon Musk become a naturalized citizen in 2002?",
+        "answer": "United States"
+    },
+    {
+        "question": "Which country granted Elon Musk citizenship in 1989 through his mother's birthright?",
+        "answer": "Canada"
+    },
+    {
+        "question": "Who was the first wife of Elon Musk?",
+        "answer": "Justine Wilson"
+    },
+    {
+        "question": "Who was the second wife of Elon Musk?",
+        "answer": "Talulah Riley"
+    },
+    {
+        "question": "When was Sarah Michelle Gellar born?",
+        "answer": "14 April 1977"
+    },
+    {
+        "question": "Where was Sarah Michelle Gellar born?",
+        "answer": "New York City, U.S."
+    },
+    {
+        "question": "What is the citizenship of Sarah Michelle Gellar?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who is the husband of Sarah Michelle Gellar?",
+        "answer": "Freddie Prinze Jr."
+    },
+    {
+        "question": "When was Melanie Griffith born?",
+        "answer": "9 August 1957"
+    },
+    {
+        "question": "Who was the father of Melanie Griffith?",
+        "answer": "Peter Griffith"
+    },
+    {
+        "question": "Who is the mother of Melanie Griffith?",
+        "answer": "Tippi Hedren"
+    },
+    {
+        "question": "Who was the third husband of Melanie Griffith?",
+        "answer": "Antonio Banderas"
+    },
+    {
+        "question": "Who was the husband of Melanie Griffith between marriages to Don Johnson?",
+        "answer": "Steven Bauer"
+    },
+    {
+        "question": "When was Winona Ryder born?",
+        "answer": "29 October 1971"
+    },
+    {
+        "question": "Who is the father of Winona Ryder?",
+        "answer": "Michael D. Horowitz"
+    },
+    {
+        "question": "When was Catherine, Princess of Wales born?",
+        "answer": "9 January 1982"
+    },
+    {
+        "question": "Where was Catherine, Princess of Wales born?",
+        "answer": "Royal Berkshire Hospital, Reading, England"
+    },
+    {
+        "question": "What is the citizenship of Catherine, Princess of Wales?",
+        "answer": "United Kingdom"
+    },
+    {
+        "question": "When was Keanu Reeves born?",
+        "answer": "2 September 1964"
+    },
+    {
+        "question": "Who is the father of Keanu Reeves?",
+        "answer": "Samuel Nowlin Reeves, Jr."
+    },
+    {
+        "question": "When was Charlie Sheen born?",
+        "answer": "3 September 1965"
+    },
+    {
+        "question": "Who is the father of Charlie Sheen?",
+        "answer": "Martin Sheen"
+    },
+    {
+        "question": "Who is the mother of Charlie Sheen?",
+        "answer": "Janet Sheen"
+    },
+    {
+        "question": "Who was the first wife of Charlie Sheen?",
+        "answer": "Donna Peele"
+    },
+    {
+        "question": "Who was the second wife of Charlie Sheen?",
+        "answer": "Denise Richards"
+    },
+    {
+        "question": "Who was the father of William Shatner?",
+        "answer": "Joseph Shatner"
+    },
+    {
+        "question": "Who was the second wife of William Shatner?",
+        "answer": "Marcy Lafferty"
+    },
+    {
+        "question": "Who was the third wife of William Shatner?",
+        "answer": "Nerine Kidd"
+    },
+    {
+        "question": "Who was the fourth wife of William Shatner?",
+        "answer": "Elizabeth Anderson Martin"
+    },
+    {
+        "question": "When was Tony Curtis born?",
+        "answer": "3 June 1925"
+    },
+    {
+        "question": "What is the citizenship of Tony Curtis?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was the third spouse of Tony Curtis?",
+        "answer": "Leslie Allen"
+    },
+    {
+        "question": "Who was the fifth spouse of Tony Curtis?",
+        "answer": "Lisa Deutsch"
+    },
+    {
+        "question": "When was Patrick Swayze born?",
+        "answer": "18 August 1952"
+    },
+    {
+        "question": "Where was Patrick Swayze born?",
+        "answer": "Houston, Texas, U.S."
+    },
+    {
+        "question": "Who was the father of Patrick Swayze?",
+        "answer": "Jesse Wayne Swayze"
+    },
+    {
+        "question": "Who was the mother of Patrick Swayze?",
+        "answer": "Patsy Swayze"
+    },
+    {
+        "question": "Who was the wife of Patrick Swayze?",
+        "answer": "Lisa Niemi"
+    },
+    {
+        "question": "Where was Alexander Hamilton born?",
+        "answer": "Charlestown, Colony of Nevis, British Leeward Islands"
+    },
+    {
+        "question": "Who was the mother of Alexander Hamilton?",
+        "answer": "Rachel Faucitt Lavien"
+    },
+    {
+        "question": "Who was the wife of Alexander Hamilton?",
+        "answer": "Elizabeth Schuyler Hamilton"
+    },
+    {
+        "question": "When did Alexander Hamilton die?",
+        "answer": "12 July 1804"
+    },
+    {
+        "question": "Where was Dennis Quaid born?",
+        "answer": "Houston, Texas, U.S."
+    },
+    {
+        "question": "Who is the father of Dennis Quaid?",
+        "answer": "William Rudy Quaid"
+    },
+    {
+        "question": "Who was the first spouse of Dennis Quaid?",
+        "answer": "P. J. Soles"
+    },
+    {
+        "question": "Who was the third spouse of Dennis Quaid?",
+        "answer": "Kimberly Quaid"
+    },
+    {
+        "question": "When was Mia Farrow born?",
+        "answer": "9 February 1945"
+    },
+    {
+        "question": "Where was Mia Farrow born?",
+        "answer": "Los Angeles, California"
+    },
+    {
+        "question": "Who is the father of Mia Farrow?",
+        "answer": "John Farrow"
+    },
+    {
+        "question": "When was Patrick Stewart born?",
+        "answer": "13 July 1940"
+    },
+    {
+        "question": "Where was Patrick Stewart born?",
+        "answer": "Mirfield, West Riding of Yorkshire, England"
+    },
+    {
+        "question": "What is the citizenship of Patrick Stewart?",
+        "answer": "United Kingdom"
+    },
+    {
+        "question": "Who is the mother of Patrick Stewart?",
+        "answer": "Gladys (née Barrowclough)"
+    },
+    {
+        "question": "Who was the first spouse of Patrick Stewart?",
+        "answer": "Sheila Falconer"
+    },
+    {
+        "question": "Who was the second spouse of Patrick Stewart?",
+        "answer": "Wendy Neuss"
+    },
+    {
+        "question": "When was Josh Brolin born?",
+        "answer": "12 February 1968"
+    },
+    {
+        "question": "Where was Josh Brolin born?",
+        "answer": "Santa Monica, California, U.S."
+    },
+    {
+        "question": "Who is the mother of Josh Brolin?",
+        "answer": "Jane Cameron Agee"
+    },
+    {
+        "question": "Who was the second spouse of Josh Brolin?",
+        "answer": "Diane Lane"
+    },
+    {
+        "question": "Who is the current spouse of Josh Brolin?",
+        "answer": "Kathryn Boyd"
+    },
+    {
+        "question": "Where was John Lennon born?",
+        "answer": "Liverpool Maternity Hospital"
+    },
+    {
+        "question": "What is the citizenship of John Lennon?",
+        "answer": "United Kingdom"
+    },
+    {
+        "question": "Who is the father of John Lennon?",
+        "answer": "Alfred Lennon"
+    },
+    {
+        "question": "Who is the mother of John Lennon?",
+        "answer": "Julia Lennon"
+    },
+    {
+        "question": "Who was the first spouse of John Lennon?",
+        "answer": "Cynthia Lennon"
+    },
+    {
+        "question": "Who was the second spouse of John Lennon?",
+        "answer": "Yoko Ono"
+    },
+    {
+        "question": "When did John Lennon pass away?",
+        "answer": "8 December 1980"
+    },
+    {
+        "question": "When was Donald Trump born?",
+        "answer": "14 June 1946"
+    },
+    {
+        "question": "What is the citizenship of Donald Trump?",
+        "answer": "United States"
+    },
+    {
+        "question": "Who was Donald Trump's first spouse?",
+        "answer": "Ivana Trump"
+    },
+    {
+        "question": "Who was Donald Trump's second spouse?",
+        "answer": "Marla Maples"
+    },
+    {
+        "question": "What is the citizenship of Lisa?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Lisa?",
+        "answer": "Chitthip Brüschweiler"
+    },
+    {
+        "question": "Where was BamBam born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "When was Nichkhun born?",
+        "answer": "24 June 1988"
+    },
+    {
+        "question": "Where was Nichkhun born?",
+        "answer": "Rancho Cucamonga, California, U.S."
+    },
+    {
+        "question": "Who is the father of Nichkhun?",
+        "answer": "Teeragiat Horvejkul"
+    },
+    {
+        "question": "When was Tony Jaa born?",
+        "answer": "5 February 1976"
+    },
+    {
+        "question": "Where was Tony Jaa born?",
+        "answer": "Surin, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Tony Jaa?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who was the father of Tony Jaa?",
+        "answer": "Thongdee Yeerum"
+    },
+    {
+        "question": "When was Buakaw Banchamek born?",
+        "answer": "8 May 1982"
+    },
+    {
+        "question": "Who is the father of Buakaw Banchamek?",
+        "answer": "Mr. Leng Banchamek"
+    },
+    {
+        "question": "Who is the father of Ratchanok Intanon?",
+        "answer": "Winutchai Intanon"
+    },
+    {
+        "question": "Which country does Alexander Albon compete under in Formula One?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "What is the birth citizenship of Alexander Albon?",
+        "answer": "United Kingdom"
+    },
+    {
+        "question": "Who is the father of Alex Albon?",
+        "answer": "Nigel Albon"
+    },
+    {
+        "question": "Who is the mother of Alex Albon?",
+        "answer": "Kankamol Albon"
+    },
+    {
+        "question": "Where was Paradorn Srichaphan born?",
+        "answer": "Khon Kaen, Thailand"
+    },
+    {
+        "question": "Who is the mother of Paradorn Srichaphan?",
+        "answer": "Ubon Srichaphan"
+    },
+    {
+        "question": "Who was the first spouse of Paradorn Srichaphan?",
+        "answer": "Natalie Glebova"
+    },
+    {
+        "question": "In which city and country was Mario Maurer born?",
+        "answer": "Bang Rak, Bangkok, Thailand"
+    },
+    {
+        "question": "Who is the father of Mario Maurer?",
+        "answer": "Roland Maurer"
+    },
+    {
+        "question": "Who is the mother of Mario Maurer?",
+        "answer": "Waranya"
+    },
+    {
+        "question": "Where was Chutimon Chuengcharoensukying born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Chutimon Chuengcharoensukying?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "When was Vachirawit Chiva-aree born?",
+        "answer": "27 December 1997"
+    },
+    {
+        "question": "When was Thongchai Jaidee born?",
+        "answer": "8 November 1969"
+    },
+    {
+        "question": "Where was Thongchai Jaidee born?",
+        "answer": "Lopburi, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Thongchai Jaidee?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the wife of Thongchai?",
+        "answer": "Namfon Latkrathok"
+    },
+    {
+        "question": "Who is the mother of Ariya Jutanugarn?",
+        "answer": "Narumon Jutanugarn"
+    },
+    {
+        "question": "When was Moriya Jutanugarn born?",
+        "answer": "28 July 1994"
+    },
+    {
+        "question": "What is the citizenship of Moriya Jutanugarn?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Moriya Jutanugarn?",
+        "answer": "Somboon Jutanugarn"
+    },
+    {
+        "question": "Who is the mother of Moriya Jutanugarn?",
+        "answer": "Narumon Jutanugarn"
+    },
+    {
+        "question": "Where was Anutin Charnvirakul born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Who is the father of Anutin Charnvirakul?",
+        "answer": "Chaovarat Chanweerakul"
+    },
+    {
+        "question": "Who is the mother of Anutin Charnvirakul?",
+        "answer": "Tassanee Charnvirakul"
+    },
+    {
+        "question": "When was Phumtham Wechayachai born?",
+        "answer": "5 December 1953"
+    },
+    {
+        "question": "What is the citizenship of Phumtham Wechayachai?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Phumtham Wechayachai?",
+        "answer": "Sunthorn Wechayachai"
+    },
+    {
+        "question": "What is the citizenship of Srettha Thavisin?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the spouse of Srettha Thavisin?",
+        "answer": "Pakpilai Thavisin"
+    },
+    {
+        "question": "What is the citizenship of Prayut Chanocha?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Prayut Chanocha?",
+        "answer": "Prapat Chan-o-cha"
+    },
+    {
+        "question": "Who is the mother of Prayut Chanocha?",
+        "answer": "Khemphet Chan-o-cha"
+    },
+    {
+        "question": "When was Abhisit Vejjajiva born?",
+        "answer": "3 August 1964"
+    },
+    {
+        "question": "Who is the father of Abhisit Vejjajiva?",
+        "answer": "Athasit Vejjajiva"
+    },
+    {
+        "question": "Who is the mother of Abhisit Vejjajiva?",
+        "answer": "Sodsai"
+    },
+    {
+        "question": "When was Surayud Chulanont born?",
+        "answer": "28 August 1943"
+    },
+    {
+        "question": "Where was Surayud Chulanont born?",
+        "answer": "Chakrapong Camp, Mueang Prachinburi, Prachinburi, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Surayud Chulanont?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Surayud Chulanont?",
+        "answer": "Phayom Chulanont"
+    },
+    {
+        "question": "Who is the mother of Surayud Chulanont?",
+        "answer": "Amphoch Chulanont"
+    },
+    {
+        "question": "Who was the first spouse of Surayud Chulanont?",
+        "answer": "Duangphon Rattanakri"
+    },
+    {
+        "question": "Who is the current spouse of Surayud Chulanont?",
+        "answer": "Chitravadee Chulanont"
+    },
+    {
+        "question": "When was Thaksin Shinawatra born?",
+        "answer": "26 July 1949"
+    },
+    {
+        "question": "Who is the former spouse of Thaksin Shinawatra?",
+        "answer": "Potjaman Na Pombejra"
+    },
+    {
+        "question": "When was Chuan Leekpai born?",
+        "answer": "28 July 1938"
+    },
+    {
+        "question": "Who is the father of Chuan Leekpai?",
+        "answer": "Niyom Leekpai"
+    },
+    {
+        "question": "When was Banhan Sinlapa-acha born?",
+        "answer": "19 August 1932"
+    },
+    {
+        "question": "Where was Banhan Sinlapa-acha born?",
+        "answer": "Doem Bang Nang Buat, Suphan Buri, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Banhan Sinlapa-acha?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Banhan Sinlapa-acha?",
+        "answer": "Sengkim Sae-be"
+    },
+    {
+        "question": "When did Banhan Sinlapa-acha pass away?",
+        "answer": "23 April 2016"
+    },
+    {
+        "question": "When was Anand Panyarachun born?",
+        "answer": "9 August 1932"
+    },
+    {
+        "question": "Where was Anand Panyarachun born?",
+        "answer": "Bangkok, Krung Thep, Siam (now Bangkok, Thailand)"
+    },
+    {
+        "question": "Who is the mother of Anand Panyarachun?",
+        "answer": "Khun Ying Pruek Prichanusat"
+    },
+    {
+        "question": "When was Prem Tinsulanonda born?",
+        "answer": "26 August 1920"
+    },
+    {
+        "question": "What is the citizenship of Prem Tinsulanonda?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "When did Prem Tinsulanonda pass away?",
+        "answer": "26 May 2019"
+    },
+    {
+        "question": "When was Seni Pramoj born?",
+        "answer": "26 May 1905"
+    },
+    {
+        "question": "What is the citizenship of Seni Pramoj?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Seni Pramoj?",
+        "answer": "Daeng (Bunnag)"
+    },
+    {
+        "question": "Who is the spouse of Seni Pramoj?",
+        "answer": "Utsana Saligupta"
+    },
+    {
+        "question": "Where was Kukrit Pramoj born?",
+        "answer": "Sing Buri, Krung Kao, Siam (now In Buri, Sing Buri, Thailand)"
+    },
+    {
+        "question": "Who is the mother of Kukrit Pramoj?",
+        "answer": "Daeng (Bunnag)"
+    },
+    {
+        "question": "When was Plaek Phibunsongkhram born?",
+        "answer": "14 July 1897"
+    },
+    {
+        "question": "Where was Plaek Phibunsongkhram born?",
+        "answer": "Nonthaburi, Siam"
+    },
+    {
+        "question": "Where was Pridi Banomyong born?",
+        "answer": "Ayutthaya, Krung Kao, Siam"
+    },
+    {
+        "question": "What is the citizenship of Pridi Banomyong?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the spouse of Pridi Banomyong?",
+        "answer": "Poonsuk Banomyong"
+    },
+    {
+        "question": "Who is the spouse of Chalerm Yoovidhya?",
+        "answer": "Daranee Yoovidhya"
+    },
+    {
+        "question": "When was Dhanin Chearavanont born?",
+        "answer": "19 April 1939"
+    },
+    {
+        "question": "Where was Dhanin Chearavanont born?",
+        "answer": "Bangkok, Siam"
+    },
+    {
+        "question": "Where was Sarath Ratanavadi born?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Sarath Ratanavadi?",
+        "answer": "Prathum Ratanavadi"
+    },
+    {
+        "question": "Who is the spouse of Sarath Ratanavadi?",
+        "answer": "Nalinee Ratanavadi"
+    },
+    {
+        "question": "When was Charoen Sirivadhanabhakdi born?",
+        "answer": "2 May 1944"
+    },
+    {
+        "question": "What is the citizenship of Charoen Sirivadhanabhakdi?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "When was Aiyawatt Srivaddhanaprabha born?",
+        "answer": "26 July 1985"
+    },
+    {
+        "question": "Where was Aiyawatt Srivaddhanaprabha born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Aiyawatt Srivaddhanaprabha?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Aiyawatt Srivaddhanaprabha?",
+        "answer": "Vichai Srivaddhanaprabha"
+    },
+    {
+        "question": "Where was Prasert Prasarttong-Osoth born?",
+        "answer": "Bangkok, Siam"
+    },
+    {
+        "question": "Who is the father of Prasert Prasarttong-Osoth?",
+        "answer": "Thong-yoo Prasarttong-Osoth"
+    },
+    {
+        "question": "Who is the mother of Prasert Prasarttong-Osoth?",
+        "answer": "Bunrod Prasarttong-Osoth"
+    },
+    {
+        "question": "When was Petchara Chaowarat born?",
+        "answer": "19 January 1943"
+    },
+    {
+        "question": "Where was Petchara Chaowarat born?",
+        "answer": "Rayong, Thailand"
+    },
+    {
+        "question": "Who is the spouse of Petchara Chaowarat?",
+        "answer": "Charin Nuntanakorn"
+    },
+    {
+        "question": "When was Naowarat Yuktanan born?",
+        "answer": "7 February 1958"
+    },
+    {
+        "question": "What is the citizenship of Naowarat Yuktanan?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "When was Jarunee Suksawat born?",
+        "answer": "12 February 1962"
+    },
+    {
+        "question": "What is the citizenship of Jarunee Suksawat?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Where was Chintara Sukapatana born?",
+        "answer": "Phra Pradaeng, Samut Prakan, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Pissamai Vilaisak?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Pissamai Vilaisak?",
+        "answer": "Nguan Vilaisak"
+    },
+    {
+        "question": "Who is the spouse of Pissamai Vilaisak?",
+        "answer": "Suphan Brahmanphan"
+    },
+    {
+        "question": "When was Setha Sirachaya born?",
+        "answer": "6 November 1944"
+    },
+    {
+        "question": "Where was Setha Sirachaya born?",
+        "answer": "Phra Nakhon Province (now Bangkok), Thailand"
+    },
+    {
+        "question": "What is the citizenship of Setha Sirachaya?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who was Setha Sirachaya's first spouse?",
+        "answer": "Suntaree Sirachaya"
+    },
+    {
+        "question": "Who was Setha Sirachaya's second spouse?",
+        "answer": "Aranya Namwong"
+    },
+    {
+        "question": "Where was Ann Thongprasom born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Where was Patcharapa Chaichua born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Where was Thongchai McIntyre born?",
+        "answer": "Phasi Charoen, Bangkok, Thailand"
+    },
+    {
+        "question": "Where was the musician Euah Suntornsanan born?",
+        "answer": "Amphawa, Samut Songkhram, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Euah Suntornsanan?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "When did Euah Suntornsanan pass away?",
+        "answer": "1 April 1981"
+    },
+    {
+        "question": "When was Mantana Morakul born?",
+        "answer": "March 30, 1923"
+    },
+    {
+        "question": "Where was Mantana Morakul born?",
+        "answer": "Ban Suan Suphan, Dusit District, Pranakorn Province"
+    },
+    {
+        "question": "What is the citizenship of Mantana Morakul?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Mantana Morakul?",
+        "answer": "Phan Morakul (née Krueasuwan)"
+    },
+    {
+        "question": "When was Urassaya Sperbund born?",
+        "answer": "18 March 1993"
+    },
+    {
+        "question": "What is the citizenship of Urassaya Sperbund?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Urassaya Sperbund?",
+        "answer": "Urai Sperbund"
+    },
+    {
+        "question": "Where was Chermarn Boonyasak born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "When was Araya A. Hargate born?",
+        "answer": "28 June 1981"
+    },
+    {
+        "question": "Where was Araya A. Hargate born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Who is the father of Araya A. Hargate?",
+        "answer": "James Albert Hargate"
+    },
+    {
+        "question": "Who is the spouse of Araya A. Hargate?",
+        "answer": "Visrut Rangsisingpipat"
+    },
+    {
+        "question": "When was Khemanit Jamikorn born?",
+        "answer": "27 May 1988"
+    },
+    {
+        "question": "Where was Khemanit Jamikorn born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Khemanit Jamikorn?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Khemanit Jamikorn?",
+        "answer": "Nateethep Jamikorn"
+    },
+    {
+        "question": "Who is the mother of Khemanit Jamikorn?",
+        "answer": "Nuananong Jamikorn"
+    },
+    {
+        "question": "When was Chaiya Mitchai born?",
+        "answer": "5 April 1974"
+    },
+    {
+        "question": "Where was Chaiya Mitchai born?",
+        "answer": "Wiset Chaichan, Ang Thong, Thailand"
+    },
+    {
+        "question": "Who is the mother of Chaiya Mitchai?",
+        "answer": "Duangduen Somboon"
+    },
+    {
+        "question": "When was Nicha Yontararak born?",
+        "answer": "23 October 1997"
+    },
+    {
+        "question": "Where was Nicha Yontararak born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Takkatan Chonlada?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Takkatan Chonlada?",
+        "answer": "Yuan Thongjulklang"
+    },
+    {
+        "question": "Who is the spouse of Takkatan Chonlada?",
+        "answer": "Phet Saharat"
+    },
+    {
+        "question": "When was Sukrit Wisetkaew born?",
+        "answer": "4 September 1985"
+    },
+    {
+        "question": "What is the citizenship of Sukrit Wisetkaew?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Sukrit Wisetkaew?",
+        "answer": "Panthipa Wisetkaew"
+    },
+    {
+        "question": "Where was Saksit Vejsupaporn born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Who is the spouse of Saksit Vejsupaporn?",
+        "answer": "Pitchayatun Janput"
+    },
+    {
+        "question": "When was Sorayudth Sutadsanajinda born?",
+        "answer": "11 May 1967"
+    },
+    {
+        "question": "Where was Sorayudth Sutadsanajinda born?",
+        "answer": "Phaya Thai, Bangkok, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Sorayudth Sutadsanajinda?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Sorayudth Sutadsanajinda?",
+        "answer": "Somsak Suthassanachinda"
+    },
+    {
+        "question": "Who is the mother of Sorayudth Sutadsanajinda?",
+        "answer": "Witchuda Sae-lo"
+    },
+    {
+        "question": "Who is the spouse of Sorayudth Sutadsanajinda?",
+        "answer": "Piangchan Wongwichuwej"
+    },
+    {
+        "question": "Where was Ranee Campen born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Who is the father of Ranee Campen?",
+        "answer": "Arnold Campen"
+    },
+    {
+        "question": "Who is the mother of Ranee Campen?",
+        "answer": "Pranee Campen"
+    },
+    {
+        "question": "Where was Bin Bunluerit born?",
+        "answer": "Aranyaprathet, Prachinburi (present-day in Sa Kaeo), Thailand"
+    },
+    {
+        "question": "Who is the father of Bin Bunluerit?",
+        "answer": "Chuchat Bunluerit"
+    },
+    {
+        "question": "When was Aed Carabao born?",
+        "answer": "9 November 1954"
+    },
+    {
+        "question": "Where was Aed Carabao born?",
+        "answer": "Suphan Buri, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Aed Carabao?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Aed Carabao?",
+        "answer": "Manus Opakul"
+    },
+    {
+        "question": "When was Chartsiri Sophonpanich born?",
+        "answer": "12 May 1959"
+    },
+    {
+        "question": "Who is the spouse of Chartsiri Sophonpanich?",
+        "answer": "Nintira Prachuabmoh"
+    },
+    {
+        "question": "When was Bantoon Lamsam born?",
+        "answer": "15 January 1953"
+    },
+    {
+        "question": "What is the citizenship of Bantoon Lamsam?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Bantoon Lamsam?",
+        "answer": "Bancha Lamsam"
+    },
+    {
+        "question": "Who is the mother of Bantoon Lamsam?",
+        "answer": "Sam-aungvarn Lamsam"
+    },
+    {
+        "question": "Who is the spouse of Bantoon Lamsam?",
+        "answer": "Usa Chirapongse"
+    },
+    {
+        "question": "Where was Rasri Balenciaga Chirathivat born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Who is the father of Rasri Balenciaga Chirathivat?",
+        "answer": "Daniel Balenciaga"
+    },
+    {
+        "question": "Who is the mother of Rasri Balenciaga Chirathivat?",
+        "answer": "Orasri Honnold"
+    },
+    {
+        "question": "Who is the spouse of Rasri Balenciaga Chirathivat?",
+        "answer": "Patsarakorn Chirathivat"
+    },
+    {
+        "question": "When was Panipak Wongpattanakit born?",
+        "answer": "8 August 1997"
+    },
+    {
+        "question": "What is the citizenship of Panipak Wongpattanakit?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Panipak Wongpattanakit?",
+        "answer": "Wantana Wongpattanakit"
+    },
+    {
+        "question": "Where was Pleumjit Thinkaow born?",
+        "answer": "Chaiyo, Ang Thong, Thailand"
+    },
+    {
+        "question": "Who is the mother of Pleumjit Thinkaow?",
+        "answer": "Somrudee Thinkaow"
+    },
+    {
+        "question": "When was Prapawadee Jaroenrattanatarakoon born?",
+        "answer": "29 May 1984"
+    },
+    {
+        "question": "Where was Prapawadee Jaroenrattanatarakoon born?",
+        "answer": "Nakhon Sawan, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Prapawadee Jaroenrattanatarakoon?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Prapawadee Jaroenrattanatarakoon?",
+        "answer": "Pawalee Jaroenrattanatarakoon"
+    },
+    {
+        "question": "When was Somkiat Chantra born?",
+        "answer": "15 December 1998"
+    },
+    {
+        "question": "Where was Somkiat Chantra born?",
+        "answer": "Pattaya, Chonburi, Thailand"
+    },
+    {
+        "question": "When was Boonsong Lekagul born?",
+        "answer": "15 December 1907"
+    },
+    {
+        "question": "What is the citizenship of Boonsong Lekagul?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "When did Boonsong Lekagul pass away?",
+        "answer": "9 February 1992"
+    },
+    {
+        "question": "When was Seub Nakhasathien born?",
+        "answer": "31 December 1949"
+    },
+    {
+        "question": "What is the citizenship of Seub Nakhasathien?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the spouse of Seub Nakhasathien?",
+        "answer": "Nisa Nakhasathien"
+    },
+    {
+        "question": "When did Seub Nakhasathien pass away?",
+        "answer": "1 September 1990"
+    },
+    {
+        "question": "When was Paveena Hongsakul born?",
+        "answer": "5 July 1949"
+    },
+    {
+        "question": "Who is the father of Paveena Hongsakul?",
+        "answer": "Perm Hongsakul"
+    },
+    {
+        "question": "Who is the mother of Paveena Hongsakul?",
+        "answer": "Keyoon Hongsakul"
+    },
+    {
+        "question": "Where was Pakorn Chatborirak born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Who is the mother of Pakorn Chatborirak?",
+        "answer": "Ngamthip Chatborirak"
+    },
+    {
+        "question": "What is the citizenship of Samak Sundaravej?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Samak Sundaravej?",
+        "answer": "Phraya Bamrungratchaboriphan (Samian Sundaravej)"
+    },
+    {
+        "question": "When was Suchinda Kraprayoon born?",
+        "answer": "6 August 1933"
+    },
+    {
+        "question": "What is the citizenship of Suchinda Kraprayoon?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Suchinda Kraprayoon?",
+        "answer": "Sompong Kraprayoon"
+    },
+    {
+        "question": "Where was Surakiart Sathirathai born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Who is the mother of Surakiart Sathirathai?",
+        "answer": "Kuakoon Sawat-chuto Sathirathai"
+    },
+    {
+        "question": "Who is the spouse of Surakiart Sathirathai?",
+        "answer": "Suthawan Ladawan Sathirathai"
+    },
+    {
+        "question": "What is the citizenship of Prawase Wasi?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Prawase Wasi?",
+        "answer": "Klai Wasi"
+    },
+    {
+        "question": "Who is the mother of Prawase Wasi?",
+        "answer": "Kim Wasi"
+    },
+    {
+        "question": "When was Mitr Chaibancha born?",
+        "answer": "28 January 1934"
+    },
+    {
+        "question": "What is the citizenship of Mitr Chaibancha?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the spouse of Mitr Chaibancha?",
+        "answer": "Jaruwan"
+    },
+    {
+        "question": "When did Mitr Chaibancha pass away?",
+        "answer": "8 October 1970"
+    },
+    {
+        "question": "When was Sek Loso born?",
+        "answer": "7 August 1974"
+    },
+    {
+        "question": "What is the citizenship of Sek Loso?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the spouse of Sek Loso?",
+        "answer": "Wiphakorn Sukpimai"
+    },
+    {
+        "question": "When was Artiwara Kongmalai born?",
+        "answer": "30 May 1979"
+    },
+    {
+        "question": "Who is the mother of Artiwara Kongmalai?",
+        "answer": "Pranom Khongmalai"
+    },
+    {
+        "question": "What is the citizenship of Putthipong Assarattanakul?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "When was Metawin Opas-iamkajorn born?",
+        "answer": "21 February 1999"
+    },
+    {
+        "question": "What is the citizenship of Metawin Opas-iamkajorn?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "When was Kanchai Kamnerdploy born?",
+        "answer": "July 18, 1969"
+    },
+    {
+        "question": "Where was Kanchai Kamnerdploy born?",
+        "answer": "Pom Prap Sattru Phai district, Bangkok"
+    },
+    {
+        "question": "What is the citizenship of Kanchai Kamnerdploy?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Kanchai Kamnerdploy?",
+        "answer": "Prakob Kamnoetploy"
+    },
+    {
+        "question": "What is the citizenship of Woody Milintachinda?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the mother of Woody Milintachinda?",
+        "answer": "Tabthip Milintachinda"
+    },
+    {
+        "question": "Who is the spouse of Woody Milintachinda?",
+        "answer": "Akkharaphol Chabchitrchaidol"
+    },
+    {
+        "question": "When was the actor Sorapong Chatree born?",
+        "answer": "8 December 1949"
+    },
+    {
+        "question": "Where was the actor Sorapong Chatree born?",
+        "answer": "Maha Rat, Ayutthaya, Thailand"
+    },
+    {
+        "question": "Who is the mother of Sorapong Chatree?",
+        "answer": "Priew Thiamasawet"
+    },
+    {
+        "question": "Who is the spouse of Sorapong Chatree?",
+        "answer": "Pimchan Jaiwong"
+    },
+    {
+        "question": "Who is the current partner or spouse of Davika Hoorne?",
+        "answer": "Chantavit Dhanasevi"
+    },
+    {
+        "question": "When was Angkarn Kalayanapong born?",
+        "answer": "13 February 1926"
+    },
+    {
+        "question": "What is the citizenship of Angkarn Kalayanapong?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Angkarn Kalayanapong?",
+        "answer": "Kheb Kalayanapong"
+    },
+    {
+        "question": "Who is the spouse of Angkarn Kalayanapong?",
+        "answer": "Aunruen Kalayanapong"
+    },
+    {
+        "question": "When did Angkarn Kalayanapong pass away?",
+        "answer": "25 August 2012"
+    },
+    {
+        "question": "What is the citizenship of Wissanu Krea-ngam?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Wissanu Krea-ngam?",
+        "answer": "Boonsong Krea-ngam"
+    },
+    {
+        "question": "Who is the spouse of Wissanu Krea-ngam?",
+        "answer": "Watcharaporn Krea-ngam"
+    },
+    {
+        "question": "What is the citizenship of Chaturon Chaisang?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Chaturon Chaisang?",
+        "answer": "Anand Chaisaeng"
+    },
+    {
+        "question": "When was Kimberley Anne Woltemas born?",
+        "answer": "22 January 1992"
+    },
+    {
+        "question": "Where was Kimberley Anne Woltemas born?",
+        "answer": "Solingen, North Rhine-Westphalia, Germany"
+    },
+    {
+        "question": "When was Jirayu Tangsrisuk born?",
+        "answer": "19 September 1993"
+    },
+    {
+        "question": "Where was Jirayu Tangsrisuk born?",
+        "answer": "Phichit, Thailand"
+    },
+    {
+        "question": "What is the citizenship of Jirayu Tangsrisuk?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Jirayu Tangsrisuk?",
+        "answer": "Sermchai Tangsrisuk"
+    },
+    {
+        "question": "Who is the mother of Jirayu Tangsrisuk?",
+        "answer": "Shotika Tangsrisuk"
+    },
+    {
+        "question": "Who is the spouse of Jirayu Tangsrisuk?",
+        "answer": "Benjamas Kittipitakkul"
+    },
+    {
+        "question": "Where was Chakrit Yamnam born?",
+        "answer": "Bangkok, Thailand"
+    },
+    {
+        "question": "Where was Mum Jokmok born?",
+        "answer": "Ubon Ratchathani (now Yasothon), Thailand"
+    },
+    {
+        "question": "Where was Napapa Tantrakul born?",
+        "answer": "Yan Nawa, Bangkok, Thailand"
+    },
+    {
+        "question": "Who is the mother of Napapa Tantrakul?",
+        "answer": "Wanida Saijai"
+    },
+    {
+        "question": "What is the citizenship of Praya Lundberg inherited from her father?",
+        "answer": "Sweden"
+    },
+    {
+        "question": "Who is the mother of Praya Lundberg?",
+        "answer": "Chavee Simmonds"
+    },
+    {
+        "question": "What is the citizenship of Louis Scott?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "Who is the father of Louis Scott?",
+        "answer": "Ian James Scott"
+    },
+    {
+        "question": "Who is the mother of Louis Scott?",
+        "answer": "Siwaporn Likittamrak"
+    },
+    {
+        "question": "Who is the spouse of Louis Scott?",
+        "answer": "Ramida Prapasanobon"
+    },
+    {
+        "question": "When was Sunny Suwanmethanont born?",
+        "answer": "18 May 1981"
+    },
+    {
+        "question": "Where was Sunny Suwanmethanont born?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "What is the citizenship of Sunny Suwanmethanont?",
+        "answer": "Thailand"
+    },
+    {
+        "question": "When was Kan Kantathavorn born?",
+        "answer": "6 December 1985"
+    },
+    {
+        "question": "Who is the mother of Kan Kantathavorn?",
+        "answer": "Wanpen Kantathavorn"
+    }
+]
