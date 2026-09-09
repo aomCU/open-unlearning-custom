@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - override /model: Llama-3.1-8B-Instruct
+  - override /eval: lm_eval
+
+tasks:
+  - mmlu
