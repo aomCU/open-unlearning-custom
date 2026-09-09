@@ -1,9 +1,9 @@
-my_th_full:
+my_en_full:
   handler: QADataset
   args:
     hf_args:
       path: json
-      data_files: ${oc.env:DATASET_ROOT}/mydataset/finetune/th_full.jsonl
+      data_files: ${oc.env:DATASET_ROOT}/mydataset/finetune/en_full.jsonl
       split: train
     question_key: "question"
     answer_key: "answer"
