@@ -57,7 +57,7 @@ for model in "${models[@]}"; do
       mode=finetune \
       task_name=${base_task} \
       model=${model} \
-      data/datasets@data.train=my_full_en \
+      data/datasets@data.train=my_all_full \
       trainer.args.per_device_train_batch_size=1 \
       trainer.args.gradient_accumulation_steps=8 \
       trainer.args.learning_rate=1e-5 \
