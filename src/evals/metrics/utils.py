@@ -41,7 +41,14 @@ def get_forget_quality(model_tr, reference_tr):
     return {"agg_value": test_res.pvalue}
 
 
-def run_batchwise_evals(model, dataloader, batch_eval_fn, batch_eval_fn_args, eval_msg, split_by_language=False):
+def run_batchwise_evals(
+    model,
+    dataloader,
+    batch_eval_fn,
+    batch_eval_fn_args,
+    eval_msg,
+    split_by_language=False,
+):
     """Run batch-wise evaluations on a dataset using a specified evaluation function. Handles
     multi-answer datasets by organizing evaluations by answer indices and aggregating results."""
     evals = defaultdict(dict)
@@ -79,7 +86,9 @@ def run_batchwise_evals(model, dataloader, batch_eval_fn, batch_eval_fn_args, ev
                 evals[intra_item_idx] |= indexwise_batch_evals
     # evals looks like {iidx0: {idx453: {prob: 0.1, loss: 1}},
     #                   iidx1: {idx453: {prob: 0.2, loss: 2}}}
-    if len(evals) == 1 and not split_by_language:  # normal single answer dataset, no need for list
+    if (
+        len(evals) == 1 and not split_by_language
+    ):  # normal single answer dataset, no need for list
         evals = next(iter(evals.values()))
     elif not split_by_language:
         # for each index return a dict with all intra_item_idx values in list
@@ -342,8 +351,10 @@ def eval_text_similarity(model, tokenizer, batch, generation_args):
 
 def eval_exact_match(model, tokenizer, batch, generation_args):
     """Evaluate text similarity between model-generated outputs and ground truth using ROUGE scores."""
+
     def normalize_text(s):
         return " ".join(s.strip().casefold().split())
+
     def contains_answer(gen, gt):
         return normalize_text(gt) in normalize_text(gen)
 
@@ -353,13 +364,13 @@ def eval_exact_match(model, tokenizer, batch, generation_args):
     input_texts = tokenizer.batch_decode(
         input_ids, skip_special_tokens=True, clean_up_tokenization_spaces=True
     )
-    
+
     # Filter labels to remove IGNORE_INDEX (-100) before decoding
     tokens = [label[label != IGNORE_INDEX] for label in labels]
     full_texts = tokenizer.batch_decode(
         tokens, skip_special_tokens=True, clean_up_tokenization_spaces=True
     )
-    
+
     # Extract the answer part by removing the prompt prefix
     ground_truths = [
         full_text.replace(input_text, "").strip()
@@ -371,14 +382,14 @@ def eval_exact_match(model, tokenizer, batch, generation_args):
     # Convert Hydra/DictConfig to a standard dictionary
     generation_args = OmegaConf.to_container(generation_args, resolve=True)
     stopwords = generation_args.pop("stopwords", None)
-    
+
     if stopwords is not None:
         assert isinstance(stopwords, list)
         sc = stop_sequences_criteria(
             tokenizer, stopwords, input_ids.shape[1], input_ids.shape[0]
         )
         generation_args["stopping_criteria"] = sc
-        
+
     # Generate response
     output = model.generate(
         input_ids,
@@ -386,7 +397,7 @@ def eval_exact_match(model, tokenizer, batch, generation_args):
         **generation_args,
         pad_token_id=tokenizer.eos_token_id,
     )
-    
+
     # Decode only the newly generated tokens
     gen_texts = tokenizer.batch_decode(
         output[:, input_ids.shape[-1] :],
@@ -398,7 +409,7 @@ def eval_exact_match(model, tokenizer, batch, generation_args):
     if stopwords is None:
         stopwords = []
     stopwords = [tokenizer.decode([tokenizer.eos_token_id])] + stopwords
-    
+
     for i in range(len(gen_texts)):
         raw_text = gen_texts[i]
         for word in stopwords:

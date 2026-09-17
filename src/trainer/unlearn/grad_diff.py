@@ -61,11 +61,11 @@ class GradDiff(UnlearnTrainer):
 
         loss = self.gamma * forget_loss + self.alpha * retain_loss
 
-        #rank = self.accelerator.process_index
+        # rank = self.accelerator.process_index
         # ---- Every step: print clean losses (main process only) ----
         if self.accelerator.is_main_process and self.accelerator.sync_gradients:
             print(
-                #f"RANK {rank} | "
+                # f"RANK {rank} | "
                 f"{self.state.global_step:6d} | "
                 f"total={loss.item():.4f} | "
                 f"forget={forget_loss.item():.4f} | "

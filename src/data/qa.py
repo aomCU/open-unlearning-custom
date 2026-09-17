@@ -73,10 +73,9 @@ class QADataset(Dataset):
         else:
             raise NotImplementedError("answer format not found")
         return item
-    
+
 
 class ParallelQADataset(Dataset):
-    
     """
     Dataset for parallel multilingual QA.
 
@@ -102,7 +101,7 @@ class ParallelQADataset(Dataset):
         max_length=512,
         predict_with_generate=False,
         languages=("en", "th"),  # 👈 NEW
-        use_data_id=True,        # 👈 NEW
+        use_data_id=True,  # 👈 NEW
     ):
         super().__init__()
         self.tokenizer = tokenizer
@@ -131,8 +130,12 @@ class ParallelQADataset(Dataset):
         if self.fs_data is None:
             prompt_msgs, response_msgs = [question], [answer]
         else:
-            prompt_msgs = [item[lang] for item in self.fs_data[self.question_key]] + [question]
-            response_msgs = [item[lang] for item in self.fs_data[self.answer_key]] + [answer]
+            prompt_msgs = [item[lang] for item in self.fs_data[self.question_key]] + [
+                question
+            ]
+            response_msgs = [item[lang] for item in self.fs_data[self.answer_key]] + [
+                answer
+            ]
         tokenized_data = preprocess_chat_instance(
             self.tokenizer,
             self.template_args,
@@ -167,6 +170,7 @@ class ParallelQADataset(Dataset):
                 index=index,  # 👈 SAME index for all langs
             )
         return out
+
 
 class QAwithIdkDataset(QADataset):
     def __init__(self, idk_path, return_original=True, *args, **kwargs):

@@ -19,7 +19,7 @@ class ForgetRetainDataset(Dataset):
 
     def set_rank_seed(self, seed: int):
         """Set the rank-specific seed for this dataset.
-        
+
         This should be called after trainer initialization to ensure each rank
         uses a unique seed for different unanchored data.
         """
@@ -45,11 +45,15 @@ class ForgetRetainDataset(Dataset):
         if self.anchor == "forget":
             item["forget"] = self.forget[idx]
             if self.retain:
-                retain_idx = torch.randint(0, len(self.retain), (1,), generator=self.generator).item()  
+                retain_idx = torch.randint(
+                    0, len(self.retain), (1,), generator=self.generator
+                ).item()
                 item["retain"] = self.retain[retain_idx]
         elif self.anchor == "retain":
             item["retain"] = self.retain[idx]
             if self.forget:
-                forget_idx = torch.randint(0, len(self.forget), (1,), generator=self.generator).item()
+                forget_idx = torch.randint(
+                    0, len(self.forget), (1,), generator=self.generator
+                ).item()
                 item["forget"] = self.forget[forget_idx]
         return item

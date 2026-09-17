@@ -30,12 +30,12 @@ def probability(model, **kwargs):
 
     fun_args = {}
     scores_by_index = run_batchwise_evals(
-        model, 
-        dataloader, 
-        evaluate_probability, 
-        fun_args, 
+        model,
+        dataloader,
+        evaluate_probability,
+        fun_args,
         "Calculating loss",
-        split_by_language
+        split_by_language,
     )
     # aggregate
     if not scores_by_index:
@@ -47,19 +47,20 @@ def probability(model, **kwargs):
     # each example contains the same language keys (e.g. "en", "th").
     if split_by_language:
         agg_value = {
-            lang: float(np.mean([
-                idx_vals[lang]["prob"]
-                for idx_vals in scores_by_index.values()
-            ]))
+            lang: float(
+                np.mean(
+                    [idx_vals[lang]["prob"] for idx_vals in scores_by_index.values()]
+                )
+            )
             for lang in sample_val.keys()
         }
     else:
-        agg_value = float(np.mean([
-            idx_vals["prob"]
-            for idx_vals in scores_by_index.values()
-        ]))
+        agg_value = float(
+            np.mean([idx_vals["prob"] for idx_vals in scores_by_index.values()])
+        )
 
     return {"agg_value": agg_value, "value_by_index": scores_by_index}
+
 
 @unlearning_metric(name="exact_match")
 def exact_match(model, **kwargs):
@@ -80,9 +81,9 @@ def exact_match(model, **kwargs):
         eval_exact_match,
         fun_args,
         "Calculating exact match",
-        split_by_language
+        split_by_language,
     )
-    
+
     if not scores_by_index:
         return {"agg_value": None, "value_by_index": {}}
 
@@ -91,29 +92,40 @@ def exact_match(model, **kwargs):
     if split_by_language:
         agg_value = {
             lang: {
-                "exact_match": float(np.mean([
-                    idx_vals[lang]["exact_match"]
-                    for idx_vals in scores_by_index.values()
-                ])),
-                "containment": float(np.mean([
-                    idx_vals[lang]["containment"]
-                    for idx_vals in scores_by_index.values()
-                ]))
+                "exact_match": float(
+                    np.mean(
+                        [
+                            idx_vals[lang]["exact_match"]
+                            for idx_vals in scores_by_index.values()
+                        ]
+                    )
+                ),
+                "containment": float(
+                    np.mean(
+                        [
+                            idx_vals[lang]["containment"]
+                            for idx_vals in scores_by_index.values()
+                        ]
+                    )
+                ),
             }
             for lang in sample_val.keys()
         }
     else:
         agg_value = {
-            "exact_match": float(np.mean([
-                idx_vals["exact_match"]
-                for idx_vals in scores_by_index.values()
-            ])),
-            "containment": float(np.mean([
-                idx_vals["containment"]
-                for idx_vals in scores_by_index.values()
-            ]))
+            "exact_match": float(
+                np.mean(
+                    [idx_vals["exact_match"] for idx_vals in scores_by_index.values()]
+                )
+            ),
+            "containment": float(
+                np.mean(
+                    [idx_vals["containment"] for idx_vals in scores_by_index.values()]
+                )
+            ),
         }
     return {"agg_value": agg_value, "value_by_index": scores_by_index}
+
 
 @unlearning_metric(name="probability_w_options")
 def probability_w_options(model, **kwargs):
